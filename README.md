@@ -1,6 +1,3 @@
-# kotlin-conductor
-Conductor Library for Kotlin
+# Task Manager #
 
-[![](https://jitpack.io/v/LTMezzari/kotlin-conductor.svg)](https://jitpack.io/#LTMezzari/kotlin-conductor)
-
-Get the library [here](https://jitpack.io/#LTMezzari/kotlin-conductor)
+A android application for Scrum.
