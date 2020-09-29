@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    tools:background="@color/eerie_black">
+
+    <CheckBox
+        android:id="@+id/cbSelected"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:visibility="gone"
+        tools:checked="true"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ibMove"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_baseline_drag_handle_24" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".8"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textSize="20sp"
+        android:textColor="@color/lavender_web"
+        tools:text="To Do" />
+</LinearLayout>

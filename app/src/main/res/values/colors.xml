@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/rich_black_fogra_39</color>
+    <color name="colorPrimaryDark">@color/rich_black_fogra_39</color>
+    <color name="colorAccent">@color/cadmium_orange</color>
+    
+    <color name="rich_black_fogra_39">#08090A</color>
+    <color name="cadmium_orange">#F7934C</color>
+    <color name="rich_black_fogra_29">#001829</color>
+    <color name="raisin_black">#232528</color>
+    <color name="android_green">#B6C649</color>
+    <color name="eerie_black">#191919</color>
+    <color name="shamrock_green">#399E5A</color>
+    <color name="lavender_web">#DBDAEA</color>
+    <color name="blood_red">#5B190B</color>
+</resources>

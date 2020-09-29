@@ -1,0 +1,131 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:8044895909378052842",
+      "lastPropertyId": "3:3004625560291736323",
+      "name": "Board",
+      "properties": [
+        {
+          "id": "1:2932936446576067358",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:556702314682975805",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:3004625560291736323",
+          "name": "description",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:767846978922874711",
+      "lastPropertyId": "4:6181900407967997092",
+      "name": "Column",
+      "properties": [
+        {
+          "id": "1:2915350838933796907",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7135441918050990914",
+          "name": "boardId",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "3:5921886335852408598",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:6181900407967997092",
+          "name": "position",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:6577836828361271076",
+      "lastPropertyId": "11:7685990868145270297",
+      "name": "Task",
+      "properties": [
+        {
+          "id": "1:6547477389083892692",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "3:7528490427139836741",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "4:8348166098229464208",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "6:7621868672501917184",
+          "name": "position",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "7:5325606102400651688",
+          "name": "isHindered",
+          "type": 1,
+          "flags": 4
+        },
+        {
+          "id": "9:3293430582982350306",
+          "name": "columnId",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "10:4496358461134779099",
+          "name": "boardId",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "11:7685990868145270297",
+          "name": "parentId",
+          "type": 6,
+          "flags": 2
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:6577836828361271076",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    3243194628751786813,
+    7841611838423798989,
+    3574643244007817859
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

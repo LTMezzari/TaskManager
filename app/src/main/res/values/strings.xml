@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+
+    <string name="hint_name">Name*</string>
+    <string name="hint_title">Title*</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_column">Column*</string>
+    <string name="hint_parent">Parent</string>
+
+    <string name="title_add_board">Add Board</string>
+    <string name="title_add_column">Add Column</string>
+
+    <string name="action_create">Create</string>
+    <string name="action_save">Save</string>
+
+    <string name="label_hindered">Hindered</string>
+    <string name="label_no_description">No description.</string>
+    <string name="label_all_boards">All Boards</string>
+    <string name="format_board_count">%d Boards</string>
+    <string name="message_empty_board">Looks like your board is empty, click here to add a new column.</string>
+    <string name="message_empty_column">Looks like there is no task in this column, click here to add a new task</string>
+    <string name="message_add_board">Create new board</string>
+</resources>
